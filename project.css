@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+.form{
+    background-color: #2e3532;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#list{
+    color: whitesmoke;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+.input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-size:15px ;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-transform: capitalize;
+}
+.add{
+    background-color: red;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+    text-transform:capitalize;
+}
+.tasks{
+    border-radius: 10px;
+    border:none;
+    padding: 25px;
+    margin-top: 20px;
+    background-color: #2e3532;
+}
+
+
+
+
+@media screen and (min-width: 768px){
+    .input{
+        position: relative;
+        left: 35%;
+    }
+    .add{
+        position: relative;
+        left: 35%;
+    }
+
+    
+}
